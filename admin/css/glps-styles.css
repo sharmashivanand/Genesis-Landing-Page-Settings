@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/**
+ *
+ * Genesis Landing Page Settings — Plugin admin page styles
+ * 
+ * @package Genesis Landing Page Settings
+ * @author Shivanand Sharma
+ * @since 1.0
+ *
+ */
+ 
+ 
+/* Plugin settings page styles
+----------------------------------------*/
+
+.genesis_page_genesis-landing-page-settings h2.hndle {
+	float: none;
+}
+
+ 
+/* Table styles for metaboxes
+----------------------------------------*/
+
+table.glps-settings-layout,
+.glps-wrapper table.glps-inner {
+  width: 100%;
+}
+
+td.glps-label {
+	width: 50%;
+}
+
+.glps-settings-post-type .glps-label {
+	vertical-align: top;
+}
+
+.glps-pt-settings-outer.genesis-metaboxes {
+	max-width: unset;
+	padding-bottom: 0;
+}
+
+#glps-lp-regular .hndle,
+#glps-lp-mobile .hndle {
+	background-color: #0bf;
+	color: #fff;
+}
+
+#glps-lp-regular .handlediv,
+#glps-lp-mobile .handlediv {
+	color: #fff;
+}
